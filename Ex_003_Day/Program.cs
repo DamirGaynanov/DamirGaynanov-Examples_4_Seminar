@@ -2,27 +2,31 @@
 Console.WriteLine("Введите число");
 string a = Console.ReadLine() ?? "";
 int a1 = int.Parse(a);
-if (a1 == 1)
+else if (a1 == 1)
 {
     Console.WriteLine("Monday");
 }
 
-if (a1 == 2)
+else if(a1 == 2)
 {
     Console.WriteLine("Tuesday");
 }
 
-if (a1 == 3)
+else if (a1 == 3)
 {
     Console.WriteLine("Wednesday");
 }
 
-if (a1 == 4)
+else if (a1 == 4)
 {
     Console.WriteLine("Thursday");
 }
 
-if (a1 == 5)
+else if (a1 == 5)
 {
     Console.WriteLine("Friday");
+}
+else 
+{
+    Console.WriteLine("Введите число от 1 до 7");
 }
