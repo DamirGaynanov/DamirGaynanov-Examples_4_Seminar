@@ -7,22 +7,22 @@ if (a == 1)
     Console.WriteLine("Monday");
 }
 
-else if  (a == 2)
+else if (a == 2)
 {
     Console.WriteLine("Tuesday");
 }
 
-else if  (a == 3)
+else if (a == 3)
 {
     Console.WriteLine("Wednesday");
 }
 
-else if  (a == 4)
+else if (a == 4)
 {
     Console.WriteLine("Thursday");
 }
 
-else if   (a == 5)
+else if (a == 5)
 {
     Console.WriteLine("Friday");
 }
