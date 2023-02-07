@@ -7,8 +7,6 @@ Console.Write("Введите число:");
 int number = Convert.ToInt32(Console.ReadLine());
 TabQuarter(number);
 
-
-
 // Метод
 void TabQuarter(int num)
 {
